@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Browser RAM Saver",
+  "version": "1.1",
+  "description": "Smart Memory Engine for discarding inactive tabs.",
+  "permissions": [
+    "tabs",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
